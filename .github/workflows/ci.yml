@@ -197,7 +197,7 @@ jobs:
         run: sbt +update
 
       - name: Download target directories (2.12, catsNative)
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: target-${{ matrix.os }}-${{ matrix.java }}-2.12-catsNative
 
@@ -207,7 +207,7 @@ jobs:
           rm targets.tar
 
       - name: Download target directories (2.12, catsJS)
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: target-${{ matrix.os }}-${{ matrix.java }}-2.12-catsJS
 
@@ -217,7 +217,7 @@ jobs:
           rm targets.tar
 
       - name: Download target directories (2.12, catsJVM)
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: target-${{ matrix.os }}-${{ matrix.java }}-2.12-catsJVM
 
@@ -227,7 +227,7 @@ jobs:
           rm targets.tar
 
       - name: Download target directories (2.13, catsNative)
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: target-${{ matrix.os }}-${{ matrix.java }}-2.13-catsNative
 
@@ -237,7 +237,7 @@ jobs:
           rm targets.tar
 
       - name: Download target directories (2.13, catsJS)
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: target-${{ matrix.os }}-${{ matrix.java }}-2.13-catsJS
 
@@ -247,7 +247,7 @@ jobs:
           rm targets.tar
 
       - name: Download target directories (2.13, catsJVM)
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: target-${{ matrix.os }}-${{ matrix.java }}-2.13-catsJVM
 
@@ -257,7 +257,7 @@ jobs:
           rm targets.tar
 
       - name: Download target directories (3, catsNative)
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: target-${{ matrix.os }}-${{ matrix.java }}-3-catsNative
 
@@ -267,7 +267,7 @@ jobs:
           rm targets.tar
 
       - name: Download target directories (3, catsJS)
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: target-${{ matrix.os }}-${{ matrix.java }}-3-catsJS
 
@@ -277,7 +277,7 @@ jobs:
           rm targets.tar
 
       - name: Download target directories (3, catsJVM)
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: target-${{ matrix.os }}-${{ matrix.java }}-3-catsJVM
 
