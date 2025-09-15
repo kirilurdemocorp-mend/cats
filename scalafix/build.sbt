@@ -23,7 +23,7 @@ lazy val v1_0_0_output = project.in(file("v1_0_0/output"))
   .settings(
     libraryDependencies ++= Seq(
       "org.typelevel" %% "cats-core" % "1.0.0",
-      "org.typelevel" %% "cats-free" % "1.0.0"
+      "org.typelevel" %% "cats-free" % "2.13.0"
     ),
     scalacOptions ++= Seq(
       "-language:higherKinds",
